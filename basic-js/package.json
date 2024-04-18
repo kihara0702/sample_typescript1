@@ -1,0 +1,50 @@
+{
+  "name": "node-starter",
+  "private": true,
+  "scripts": {
+    "start": "ts-node ./src/.",
+    "start:js01": "ts-node ./src/js01_functions.js",
+    "start:js02": "ts-node ./src/js02_class.js",
+    "start:js03": "ts-node ./src/js03_obj.js",
+    "start:js04": "ts-node ./src/js04_destructuring_assignment.js",
+    "start:js05": "ts-node ./src/js05_spread_syntax.js",
+    "start:js06": "ts-node ./src/js06_shallowcopy_deepcopy.js",
+    "start:js07": "ts-node ./src/js07_obj_merge.js",
+    "start:js08": "ts-node ./src/js08_shortcircuit_nulllishCoalescing_optionalChaining.js",
+    "start:js09": "ts-node ./src/js09_this.js",
+    "start:js10": "ts-node ./src/js10_functional.js",
+    "start:js11": "ts-node ./src/js11_closure.js",
+    "start:js12": "ts-node ./src/js12_generator.js",
+    "start:js13": "ts-node ./src/js13_iteration.js",
+    "start:js14": "ts-node ./src/js14_async.js",
+    "start:watch": "ts-node-dev .",
+    "lint": "run-s lint:*",
+    "lint:eslint": "eslint src/**/*.ts",
+    "lint:prettier": "prettier --check src/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-typescript-enum": "^2.1.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/ramda": "^0.29.6",
+    "fp-ts": "^2.16.1",
+    "fp-ts-contrib": "^0.1.29",
+    "ramda": "^0.29.1",
+    "readline-sync": "^1.4.10",
+    "rxjs": "^7.8.1"
+  }
+}
